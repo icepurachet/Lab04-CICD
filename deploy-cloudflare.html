@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deploy to Cloudflare Pages - Ekachai Kanya</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">EK.</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="deploy-cloudflare.html" class="active">Deploy</a></li>
+        </ul>
+    </nav>
+
+    <div class="guide-content">
+        <div class="guide-nav">
+             <a href="deploy-github.html" class="btn" style="background: transparent; border: 1px solid var(--accent-color);">GitHub Pages</a>
+             <a href="deploy-cloudflare.html" class="btn">Cloudflare Pages</a>
+        </div>
+
+        <h1>Deploy to Cloudflare Pages</h1>
+        <p>Deploy your site globally with Cloudflare's fast and secure network.</p>
+
+        <div class="guide-step">
+            <h3>Step 1: Connect Git</h3>
+            <p>Log in to the Cloudflare Dashboard. Go to <strong>Workers & Pages</strong> > <strong>Create Application</strong> > <strong>Pages</strong> > <strong>Connect to Git</strong>.</p>
+            <img src="assets/cloudflare_deploy_ui.png" alt="Cloudflare Pages Dashboard">
+        </div>
+
+        <div class="guide-step">
+            <h3>Step 2: Select Repository</h3>
+            <p>Authorize Cloudflare to access your GitHub account and select your repository (e.g., <code>it464a-gitsample</code>).</p>
+        </div>
+
+        <div class="guide-step">
+            <h3>Step 3: Configure Builds</h3>
+            <p>Set the <strong>Project Name</strong> (this will be your subdomain). For <strong>Framework preset</strong>, leave it as "None" for a static HTML site.</p>
+        </div>
+
+        <div class="guide-step">
+            <h3>Step 4: Deploy</h3>
+            <p>Click <strong>Save and Deploy</strong>. Cloudflare will build and deploy your site in seconds.</p>
+             <div class="code-block">https://your-project.pages.dev</div>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Ekachai Kanya. All rights reserved.</p>
+        <p>ekachai.k@bu.ac.th</p>
+    </footer>
+
+</body>
+</html>

@@ -239,3 +239,47 @@ footer {
     display: none;
   } /* Simplified mobile nav for now */
 }
+
+/* Documentation/Guide Specific Styles */
+.guide-content {
+    max-width: 800px;
+    margin: 80px auto 5rem;
+    padding: 0 5%;
+}
+
+.guide-step {
+    background: var(--glass-bg);
+    border: 1px solid var(--glass-border);
+    border-radius: 15px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+.guide-step h3 {
+    color: var(--accent-color);
+    margin-bottom: 1rem;
+}
+
+.guide-step img {
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 1rem;
+    border: 1px solid var(--glass-border);
+}
+
+.code-block {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    border-radius: 8px;
+    font-family: monospace;
+    color: #00ff9d;
+    margin: 1rem 0;
+    overflow-x: auto;
+}
+
+.guide-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
